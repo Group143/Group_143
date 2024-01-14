@@ -17,7 +17,7 @@ def csv_to_txt(csv_file, txt_file):
             f.write(str(row) + '\n')
 
 # Define the directory path where the CSV files are located
-dir_path = 'C:\\Users\\Ramu\\Downloads\\Assignment 2\\'
+dir_path = './'
 
 # Use glob to find all CSV files in the directory
 csv_files = glob.glob(os.path.join(dir_path, '*.csv'))
